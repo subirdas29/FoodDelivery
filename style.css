@@ -99,9 +99,6 @@
     justify-content: center;
     margin: auto ;
     margin: 80px 0;
-
-   
-
 }
 
 .side-image {
@@ -122,6 +119,7 @@
     padding: 10px 26px;
     background-color:#F40469 ;
     color: white;
+    font-size: 16px;
 }
 
 .text-section h2 {
@@ -131,3 +129,13 @@
 .text-section p {
     margin: 26px 0;
 } 
+
+.img-sec{
+    margin: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-sec h2{
+    font-size: 32px;
+    font-weight: 400;
+}
