@@ -140,7 +140,8 @@
     justify-content: space-between;
 }
 .pic5{
-    margin: 80px 60px;
+    margin: 0 60px;
+    margin-bottom: 120px;
 }
 .img-sec h2{
     font-size: 32px;
@@ -167,12 +168,15 @@
   
   .item1 {
     grid-row: 1 / 4;
+    
+  }
+  .item1 img{
+    height: 87%;
   }
 
   .image-container {
     width: 100%; 
-    max-width: 700px; 
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
 }
 
@@ -196,6 +200,9 @@
     align-items: center;
 }
 
+.fee{
+    margin-left: 6px;
+}
 .time {
     margin-right: 100px;
 }
