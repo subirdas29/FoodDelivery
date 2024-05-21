@@ -1,5 +1,5 @@
 
-.header{
+.nav{
     padding:4;
     margin-left: 64px;
     margin-right: 64px;
@@ -21,3 +21,31 @@
     font-weight:600
 }
 
+/* .sec{
+    width: 1440px;
+    height: 504px;
+} */
+
+.sec{
+    /* height: 504px; */
+    /*width: 1440px; */
+    background: url("assets/banner-image/banner-img.jfif");
+    /* background-size: cover; */
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* text-align: center; */
+}
+
+.banner-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 56px;
+    color: white; 
+    
+}
