@@ -429,4 +429,26 @@ text-align: center;
         flex-direction: column;
         text-align: center;
     }
+    #title {
+        font-size: 20px;
+    }
+
+    #sign {
+        font-size: 12px;
+    }
+
+    .sec {
+        height: auto;
+        padding: 10px;
+    }
+
+    .banner-text {
+        font-size: 36px;
+        margin-top: 8%;
+    }
+
+    .search-container {
+        width: 90%;
+        margin-bottom: 8%;
+    }
 }
