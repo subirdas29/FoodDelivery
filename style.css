@@ -192,12 +192,39 @@
     align-items: center;
 }
 
-
-
-
-
-
 .time {
     margin-right: 100px;
 }
  
+.order-sec h4{
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.order-sec{
+    margin:80px 150px;
+}
+
+.order{
+    display: flex;
+    gap:40px;
+    margin: 0 60px;
+}
+
+.card{
+    Width:full;
+    padding: 15px;
+    border-radius: 30px;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+text-align: center;
+}
+
+.card h2{
+    color: #F40469;
+}
+
+.card p{
+    padding: 0 6px;
+    font-size: 18px;
+}
