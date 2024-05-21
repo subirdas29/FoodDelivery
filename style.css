@@ -182,8 +182,22 @@
 .delivery{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.delivery-fee{
+    display: flex;
+    padding: auto 0;
+    align-items: center;
 }
 
 
 
+
+
+
+.time {
+    margin-right: 100px;
+}
  
