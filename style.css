@@ -229,6 +229,11 @@ text-align: center;
     font-size: 18px;
 }
 
+.card img{
+    height: 120px;
+    width: 120px;
+}
+
 .sec04{
   
    
@@ -237,10 +242,10 @@ text-align: center;
         height: 100%;
       
         background-size: cover;
-       /* background-position: right; */
+   
        background-position: center;
        background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+ 
        border-radius: 80px;
       
        display:flex ;
@@ -279,4 +284,62 @@ text-align: center;
     font-weight: 400;
     font-size: 56px;
     color: white; 
+}
+
+.food-lover h1{
+
+    text-align: center;
+    font-size: 54px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.food-lover p{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 20%;
+
+}
+
+
+.food-lover-bnr{
+    background: url("assets/section-05-image/Rectangle.png");
+      
+    width: 610px;
+    height: 350px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+ 
+    margin: 0 -350px;
+   border-radius: 40px;
+  
+   display:flex ;
+   justify-content: center; 
+    align-items: center;
+   color: white;
+   text-align: center;
+
+   flex-direction: column;
+
+ 
+}
+
+.food-text {
+
+    font-size: 23px;
+    line-height: 1.25;
+    margin: 8px 0;
+}
+.food-lover-bnr p{
+    color:#F40469 ;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.food-arrow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
