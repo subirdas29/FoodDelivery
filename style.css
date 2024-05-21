@@ -48,6 +48,7 @@
 
 .search-container {
     display: flex;
+    width: 50%;
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 20px;
@@ -352,6 +353,9 @@ text-align: center;
     text-align: center;
 }
 
+.last-section{
+    margin: 120px 0;
+}
 .footer-start{
     display: flex;
     align-items: center;
@@ -367,12 +371,20 @@ text-align: center;
 
 .footer-img{
     position: relative;
+    margin: -200px 0;
+}
+.img-foot{
+    width: 100%;
+  
+    position: absolute;
+    top:200px;
+    z-index: 1; 
 }
 
 .footer{
     position: absolute;
     top: 200px;
-    
+    z-index: 2;
 }
 
 .footer-end{
